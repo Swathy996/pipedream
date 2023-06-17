@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b5e6bd2f67.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"></div> 
+<div class="container">
+    <nav>
+        <img src="images/s logo.png" class="logo">
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="header-text">
+        <p>Graphic Designer</p>
+        <h1>Hi, I'm <span>Swathy Sudarsanan</span><br> from Kerala</h1>
+    </div>
+</div> 
+<!--- ---------about------ --->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/IMG_20230525_184354.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>
+                  Hello Peeps! Welcome to my Portfolio.I'm Swathy Sudarsanan.I'm a Btech Graduate,completed degree on stream Computer Science
+                  and Engineering from Mahathma Gandhi university. I’ve been designing brochures,flyers and online graphics projectsfor about six months
+                  You can check my principal works with description on my online portfolio .
+                  Now I am a fresher and looking for a job in a webdesign studio, or in a well-established IT company like this one, 
+                  in order to further develop my designing skills and work on major projects.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Work Experience')">Work Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Graphic Design</span><br>Designing brochures,flyers,posters,image editing</li>
+                        <li><span>UI/UX </span><br>Designing Web app Interfaces</li>
+                        <li><span>Documentation</span><br>Creating presentation and word files</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Work Experience">
+                    <ul>
+                        <li><span>Research Assistant Role - Youth Club Development Campaign (YCDC) under Nehru Yuva Kendra Ernakulam, COLLECTORATE ERNAKULAM</span><br>Assistance to Nehru Yuva Kendra office in tabulation of Youth Clubs statistics for Youth Club Development Campaign.
+                        <br>Updating of Youth Club Development Campaign Daily progress.
+                        <br>Assistance to coordinate with Field Volunteers.
+                        <br>Updating of Youth Club data with National Team.
+                        <br>Assistance for Youth Clubs Geo-Mapping initiative.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2014-2018</span><br>Btech Engineering in Computer Science<br>Federal Institute of science and Technology</li>
+                        <li><span>2013-2014</span><br>Biomaths(12th CBSE- Science Stream)<br>Kendriya vidyalaya NAD Aluva</li>
+                        <li><span>2011-2012</span><br>Sanskrit (10th CBSE)<br>Kendriya Vidyalaya NAD Aluva</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<!---------services--------> 
+<div id="services">
+     <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Graphic Design and Documentaion</h2>
+                <p>Recently attended a 6-month integrated course, conducted by ERNST and YOUNG (EY) 
+                    and Kerala Knowledge Economy Mission (KKEM)</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Attended a 3-month online course on UI and UX Design from AVODHA EDUTECH PRIVATE LIMITED<br>
+                   Designed an Education Learning and Job Portal APP Entitled as “FUTURE ED” which illustrates 
+                   various courses in different universities, lists out Top companies, Job section and E-books.<br>
+                </p>
+            </div>
+
+        </div>
+
+     </div>
+</div>
+<!-- ---------portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/illustrator/Business card.png">
+                <div class="layer">
+                    <h3>Business card</h3>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/illustrator/Logo.png">
+                <div class="layer">
+                    <h4>Logo</h4>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/illustrator/Social-media.png ">
+                <div class="layer">
+                    <h5>Social media</h5>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/indesign/booklet/indesign final assessment.jpg">
+                <div class="layer">
+                    <h6>Booklet</h6>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/indesign/booklet/indesign final assessment2.jpg">
+                <div class="layer">
+                    <h7>Booklet</h7>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/indesign/booklet/indesign final assessment3.jpg">
+                <div class="layer">
+                    <h8>Booklet</h8>
+                </div>
+            </div>
+            <div class="work">
+              <img src="images/indesign/booklet/indesign final assessment4.jpg">
+              <div class="layer">
+                <h9>Booklet</h9>
+            </div>
+            </div>
+            <div class="work">
+              <img src="images/indesign/booklet/indesign final assessment5.jpg">
+              <div class="layer">
+                <h10>Booklet</h10>
+            </div>
+            </div>
+            <div class="work">
+             <img src="images/indesign/booklet/indesign final assessment6.jpg">
+             <div class="layer">
+                <h11>Booklet</h11>
+            </div>
+            </div>
+            <div class="work">
+             <img src="images/indesign/booklet/indesign final assessment7.jpg">
+             <div class="layer">
+                <h12>Booklet</h12>
+            </div>
+            </div>
+            <div class="work">
+                <img src="images/indesign/booklet/indesign final assessment8.jpg"> 
+                <div class="layer">
+                    <h13>Booklet</h13>
+                </div> 
+            </div>
+            <div class="work">
+                <img src="images/indesign/booklet/indesign final assessment9.jpg">
+                <div class="layer">
+                    <h14>Booklet</h14>
+                </div>
+            </div>
+            <div class="work">
+             <img src="images/indesign/booklet/indesign final assessment10.jpg">
+             <div class="layer">
+                <h15>Booklet</h15>
+            </div>
+                </div>
+            <div class="work">
+                <img src="images/indesign/booklet/indesign final assessment11.jpg">
+                <div class="layer">
+                    <h16>Booklet</h16>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/indesign/booklet/indesign final assessment12.jpg">
+                <div class="layer">
+                    <h17>Booklet</h17>
+                </div>
+            </div>
+            <div class="work">
+                 <img src="images/indesign/booklet/indesign final assessment13.jpg">
+                 <div class="layer">
+                    <h18>Booklet</h18>
+                </div>
+            </div>
+            <div class="work">
+              <img src="images/indesign/booklet/indesign final assessment14.jpg">
+              <div class="layer">
+                <h19>Booklet</h19>
+            </div>
+            </div>
+            <div class="work">
+               <img src="images/indesign/booklet/indesign final assessment15.jpg">
+               <div class="layer">
+                <h20>Booklet</h20>
+            </div>
+            </div>
+            <div class="work">
+              <img src="images/indesign/booklet/indesign final assessment16.jpg">
+              <div class="layer">
+                <h21>Booklet</h21>
+            </div>
+            </div>
+            <div class="work">
+              <img src="images/indesign/booklet/indesign final assessment17.jpg">
+              <div class="layer">
+                <h22>Booklet</h22>
+            </div>
+            </div>
+            <div class="work">
+                    <img src="images/indesign/booklet/indesign final assessment18.jpg">
+                    <div class="layer">
+                        <h23>Booklet</h23>
+                    </div>
+            </div>
+            <div class="work">
+                    <img src="images/indesign/booklet/indesign final assessment19.jpg">
+                    <div class="layer">
+                        <h24>Booklet</h24>
+                    </div>
+            </div>
+             <div class="work">
+                    <img src="images/indesign/booklet/indesign final assessment20.jpg">
+                    <div class="layer">
+                        <h25>Booklet</h25>
+                    </div>
+            </div>
+            <div class="work">
+                    <img src="images/indesign/booklet/indesign final assessment21.jpg">
+                    <div class="layer">
+                        <h26>Booklet</h26>
+                    </div>
+            </div>
+            <div class="work">
+                    <img src="images/indesign/booklet/indesign final assessment22.jpg">
+                    <div class="layer">
+                        <h27>Booklet</h27>
+                    </div>
+            </div>
+            <div class="work">
+                    <img src="images/indesign/booklet/indesign final assessment23.jpg"> 
+                    <div class="layer">
+                        <h28>Booklet</h28>
+                    </div>
+            </div>
+            <div class="work">
+                <img src="images/indesign/brochure/brochure.jpg">
+                <div class="layer">
+                    <h29>Brochure</h29>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/indesign/brochure/brochure2.jpg">
+                <div class="layer">
+                    <h30>Brochure</h30>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/photoshop/composite-final.png">
+                <div class="layer">
+                    <h31>Composite image -photoshop</h31>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/photoshop/finalwebsite (1).png">
+                <div class="layer">
+                    <h32>Website mockup in photoshop</h32>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/photoshop/music-festival-poster_1.png">
+                <div class="layer">
+                    <h33>Music Poster-Photoshop</h33>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/photoshop/Notice-sree-durga_1.png">
+                <div class="layer">
+                    <h34>Thiruvathira Poster</h34>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="images/powerpoint/Slide1.PNG">
+                <div class="layer">
+                    <h35>Powerpoint</h35>
+                </div>
+            </div>   
+            <div class="work">
+                <img src="images/powerpoint/Slide2.PNG">
+                <div class="layer">
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/powerpoint/Slide3.PNG">
+                <div class="layer">
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/powerpoint/Slide4.PNG">
+                <div class="layer">
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/powerpoint/Slide5.PNG">
+                <div class="layer">
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/powerpoint/Slide6.PNG">
+                <div class="layer">
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/powerpoint/Slide7.PNG">
+                <div class="layer">
+                </div>
+            </div>
+            <div class ="work">
+                 <img src="images/ui ux design/1.jpg">
+                 <div class="layer">
+                    <h36>UI/UX Design</h36>
+                 </div>
+            </div>
+            <div class ="work">
+                <img src="images/ui ux design/2.jpg">
+                <div class="layer"></div>
+           </div>
+           <div class ="work">
+            <img src="images/ui ux design/3.jpg">
+            <div class="layer"></div>
+            </div>
+            <div class ="work">
+                <img src="images/ui ux design/4.jpg">
+                <div class="layer"></div>
+           </div>
+           <div class ="work">
+            <img src="images/ui ux design/5.jpg">
+            <div class="layer"></div>
+            </div>
+            <div class ="work">
+                <img src="images/ui ux design/6.jpg">
+                <div class="layer"></div>
+           </div>
+           <div class ="work">
+            <img src="images/ui ux design/7.jpg">
+            <div class="layer"></div>
+           </div>
+           <div class ="work">
+            <img src="images/ui ux design/8.jpg">
+            <div class="layer"></div>
+           </div>
+           <div class ="work">
+            <img src="images/ui ux design/9.jpg">
+            <div class="layer"></div>
+           </div>
+           <div class ="work">
+            <img src="images/ui ux design/10.jpg">
+            <div class="layer"></div>
+           </div>
+           <div class ="work">
+            <img src="images/ui ux design/11.jpg">
+            <div class="layer"></div>
+           </div>
+           <div class ="work">
+            <img src="images/ui ux design/12.jpg">
+            <div class="layer"></div>
+           </div>
+           <div class ="work">
+            <img src="images/ui ux design/13.jpg">
+            <div class="layer"></div>
+           </div>
+           <div class ="work">
+            <img src="images/ui ux design/14.jpg">
+            <div class="layer"></div>
+          </div>
+          <div class ="work">
+            <img src="images/ui ux design/15.jpg">
+            <div class="layer"></div>
+          </div>
+          <div class ="work">
+            <img src="images/ui ux design/16.jpg">
+            <div class="layer"></div>
+          </div>
+          <div class ="work">
+            <img src="images/ui ux design/18.jpg">
+            <div class="layer"></div>
+          </div>
+       </div>
+       </div>
+      </div>        
+  </div> 
+</div>   
+<!-- -------contact--------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>swathysuda@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>9778025916</p>
+                <div class="social-icons">
+                  <a href="https://www.linkedin.com/in/swathy-sudarsanan-875a48169/"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://www.facebook.com/skates9star"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="images/swathy-sudarsanan-01-06-2023-10-11-53.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div>
+
+</div>  
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){ 
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html> 
